@@ -45,7 +45,7 @@ const Content = () => {
   };
 
   return (
-    <div>
+    <div className="content">
       {listProduct.map((l) => (
         <button
           key={l.id}

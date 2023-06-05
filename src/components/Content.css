@@ -6,6 +6,15 @@ button {
     margin: 2px;
 }
 
+.content {
+    display: grid;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
 img {
     width: 200px;
     height: 200px;
